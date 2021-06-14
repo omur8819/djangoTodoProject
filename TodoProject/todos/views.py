@@ -73,9 +73,9 @@ def edit_todo_item(request, todo_id):
 @login_required(login_url='/todos/login/')
 def todo_update(request, todo_id):
     todo = get_object_or_404(Todo, id=todo_id)
-    form = TodoUpdateForm(instance=todo)
+    form = TodoUpdateForm(request.POST or None, instance=todo)
     if request.method == "POST":
-        form = TodoUpdateForm(request.POST, instance=todo)
+        # form = TodoUpdateForm(request.POST or None, instance=todo)
         if form.is_valid():
             form.save()
             return redirect('todo_list')
