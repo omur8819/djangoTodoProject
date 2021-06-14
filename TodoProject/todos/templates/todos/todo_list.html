@@ -55,7 +55,7 @@
                                             <i class="far fa-trash-alt fa-lg text-danger float-right"></i>
                                         </button>
                                     </form>
-                                    <form action="{% url 'todo-update' todo.id %}" method="POST" class="float-right d-inline">
+                                    <form action="{% url 'todo-update' todo.id %}" method="GET" class="float-right d-inline">
                                         {% csrf_token %}
                                         <button type="submit" class="btn">
                                             <i class="fas fa-edit fa-lg"></i>
