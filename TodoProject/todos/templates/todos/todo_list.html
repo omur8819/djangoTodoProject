@@ -30,7 +30,7 @@
                                     <form action="{% url 'insert_todo_item' %}" method="POST">
                                         {% csrf_token %}
                                         <div class="input-group">
-                                            <input type="text" class="form-control" name="content">
+                                            <input type="text" class="form-control" name="content" placeholder="Write a Todo">
                                             <div class="input-group-append text-info">
                                                 <span class="input-group-text bg-white py-0">
                                                     <button type="submit" class="btn btn-sm text-info">
