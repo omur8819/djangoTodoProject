@@ -4,7 +4,7 @@ from django.utils import timezone
 # Create your models here.
 class Todo(models.Model):
     content = models.CharField(max_length=200)
-    created_date = models.DateTimeField(auto_now_add=True, max_length=19,)
+    created_date = models.DateTimeField(auto_now_add=True)
     completed = models.BooleanField(default=False)
     completed_date = models.DateTimeField(null=True)
     
