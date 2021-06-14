@@ -16,3 +16,14 @@ This page contains How to build Django To-Do app with PostgreSQL.
 6. RegisterPage : http://127.0.0.1:8000/todos/register/
 7. LoginPage    : http://127.0.0.1:8000/todos/login/
 
+## Project Pictures
+### RegisterPage
+![RegisterPage](./register.png "RegisterPage")
+
+### LoginPage
+![LoginPage](./login.png "LoginPage")
+
+### TodosPage
+![TodosPage](./todos.png "TodosPage")
+
+
