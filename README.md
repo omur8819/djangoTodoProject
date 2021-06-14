@@ -29,4 +29,7 @@ This page contains How to build Django To-Do app with PostgreSQL.
 ### UpdatePage
 ![UpdatePage](./update.png "UpdatePage")
 
+### Database
+![Database](./database.png "Database")
+
 
